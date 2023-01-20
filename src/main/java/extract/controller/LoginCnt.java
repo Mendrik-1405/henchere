@@ -63,7 +63,7 @@ public class LoginCnt extends Cnt {
 
     }
 
-    @PostMapping("/login/incription/client")
+    @PostMapping("/login/incription/admin")
     public ResponseEntity<?> createAdmin(@RequestBody Login login) {
         return this.signup(login, 50);
 
