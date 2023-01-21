@@ -30,7 +30,7 @@ public class LoginSer {
 
     public Token login(Login login, int etat) throws NoSuchAlgorithmException, NoLogin {
         Token token = this.login(login);
-        if (login.getEtat() != etat) {
+        if (token.getLogin().getEtat() != etat) {
             throw new NoLogin();
         }
         return token;
