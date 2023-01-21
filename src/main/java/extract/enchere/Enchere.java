@@ -21,7 +21,7 @@ public class Enchere extends HElement<Integer> {
     Date debut;
     @Column(name = "datefin")
     Date fin;
-    @Column(name = "prixminimise")
+    @Column(name = "prixminmise")
     double prixMin;
     int etat;
     @OneToOne
